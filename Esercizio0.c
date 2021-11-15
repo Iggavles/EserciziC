@@ -19,6 +19,8 @@ int main(int argc,char *argv[])
     else
     {
       printf("Secondo argomento utente(%s) non valido\n",argv[1]);
+      return -1;
     }
   }
+  return 0
 }
