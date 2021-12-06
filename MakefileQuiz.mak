@@ -1,3 +1,5 @@
+all: libMath
+
 dividi : dividi.o					
 	gcc -o elabora elabora.o		
 

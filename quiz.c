@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(int argc,char *argv[])
+/*int main(int argc,char *argv[])
 {
 	int x,y,risultato;
 	if(argc<3)
@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
 	}
 	risultato=quiz(x,y);
 	printf("Il risultato della divisione e' %x",risultato);
-}
+}*/
 int quiz(int x, int y)
 {
 	int r;
